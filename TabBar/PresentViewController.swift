@@ -13,8 +13,8 @@ class PresentViewController: UIViewController {
     @IBOutlet weak var overLayer: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        overLayer.layer.cornerRadius = 12
-        overLayer.layer.borderWidth = 2
+        overLayer.layer.cornerRadius = 24
+        overLayer.layer.borderWidth = 4
         
     }
     

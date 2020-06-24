@@ -19,7 +19,7 @@ class PresentViewController: UIViewController {
     }
     
     @IBAction func closeButtonAction(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: false, completion: nil)
     }
     
    
